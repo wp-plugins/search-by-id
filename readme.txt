@@ -7,7 +7,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Enables the user to search by post ID using the built-in search within the control panel. Works for all kinds of posts (regular posts, pages, custom post types).
+Enables the user to search by post ID using the built-in search within the control panel. Works for all kinds of posts.
 
 == Description ==
 
