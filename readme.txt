@@ -13,16 +13,16 @@ Enables the user to search by post ID using the built-in search within the contr
 
 Ever wanted to do a quick search for a post with a specific ID? The built-in search doesn't allow that. But now you can.
 
-*Features:*
-* Works for all kinds of posts (regular posts, pages, custom post types).
-* No configuration needed.
-* Doesn't add javascript or css.
-* No front-end functionality, just back-end.
-* Doesn't add any options or tables to the database.
+**Features:**
+*   Works for all kinds of posts (regular posts, pages, custom post types).
+*   No configuration needed.
+*   Doesn't add javascript or css.
+*   No front-end functionality, just back-end.
+*   Doesn't add any options or tables to the database.
 
 Just a nice and easy, seamless extension of the built-in search.
 
-*How to use it:*
+**How to use it:**
 Simply enter an ID into the search field. If a post with that ID is found, it will show up in the search result.
 
 == Installation ==
