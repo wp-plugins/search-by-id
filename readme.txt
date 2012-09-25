@@ -36,11 +36,11 @@ That's right. There's no step three.
 
 = What does it do? =
 
-Whenever a search is executed, the plugin simply hooks into that query and checks if the query (the phrase you entered into the search field) is a numeric value. If it is, it modified the query so that it also searches for post ID's (default is to only search title and content).
+Whenever a search is executed, the plugin simply hooks into that query and checks if the query (the phrase you entered into the search field) is a numeric value. If it is, it modifies the query so that it also searches for post ID's (default is to only search title and content).
 
 == Screenshots ==
 
-None.
+This plugin doesn't add any configuration pages or anything like that. So there's no need for screenshots :)
 
 == Changelog ==
 
