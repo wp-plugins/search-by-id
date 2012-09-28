@@ -38,6 +38,10 @@ That's right. There's no step three.
 
 Whenever a search is executed, the plugin simply hooks into that query and checks if the query (the phrase you entered into the search field) is a numeric value. If it is, it modifies the query so that it also searches for post ID's (default is to only search title and content).
 
+= I've installed and activated the plugin, but cannot find it in the admin area =
+
+There is nothing new to be found, my friend. It hooks into the good old search input field you see in the top right corner when viewing the lists of posts (or pages, or whatever post type you may use). Just enter an ID into that field, and you will see.
+
 == Screenshots ==
 
 This plugin doesn't add any configuration pages or anything like that. So there's no need for screenshots :)
