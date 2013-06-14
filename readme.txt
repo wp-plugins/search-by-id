@@ -2,8 +2,8 @@
 Contributors: wpkonsulent
 Tags: search, posts, pages, custom post types, id, admin
 Requires at least: 3.0.1
-Tested up to: 3.4.2
-Stable tag: 1.0
+Tested up to: 3.5.1
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -24,6 +24,8 @@ Just a nice and easy, seamless extension of the built-in search.
 
 = How to use it: =
 Simply enter an ID into the search field. If a post with that ID is found, it will show up in the search result.
+
+You can even enter a list of IDs if you want to search multiple IDs. For instance "100, 200, 300".
 
 == Installation ==
 
@@ -47,6 +49,9 @@ There is nothing new to be found, my friend. It hooks into the good old search i
 This plugin doesn't add any configuration pages or anything like that. So there's no need for screenshots :)
 
 == Changelog ==
+
+= 1.1 =
+* Added support for searching multiple IDs. Credit goes to Ben Wise for suggesting this.
 
 = 1.0 =
 * Initial release.

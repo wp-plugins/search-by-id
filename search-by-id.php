@@ -3,7 +3,7 @@
 	Plugin Name: Search by ID
 	Plugin URI: 
 	Description: Enables the user to search by post ID using the built-in search within the administration area. Works for all kinds of posts (posts, pages, custom post types).
-	Version: 1.0
+	Version: 1.1
 	Author: Uffe Fey, WordPress consultant
 	Author URI: http://wpkonsulent.dk
 */
@@ -33,6 +33,11 @@
 					{
 						global $wpdb;
 						$where .= ' or ' . $wpdb->posts . '.ID = ' . $s;
+					}
+					elseif(preg_match("/^(\d+)(,\s*\d+)*\$/", $s)) // string of post IDs
+					{
+						global $wpdb;
+						$where .= ' or ' . $wpdb->posts . '.ID in (' . $s . ')';
 					}
 				}
 			}
