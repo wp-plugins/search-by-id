@@ -1,6 +1,6 @@
 === Search by ID ===
 Contributors: wpkonsulent
-Tags: search, posts, pages, custom post types, media, id, admin
+Tags: search, id, posts, pages, custom post types, media, admin
 Requires at least: 4.0
 Tested up to: 4.1.1
 Stable tag: 1.2
